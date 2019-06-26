@@ -1,0 +1,26 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 8px solid #8a0303;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+body {
+  font-family: "Lucida Console", monospace;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  color: gray;
+  width: 100%;
+  margin: 0;
+  padding: 10;
+}
