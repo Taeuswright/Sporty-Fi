@@ -1,4 +1,4 @@
-{
+var json = {
   items: [
     {
       name: "Work",
@@ -406,22 +406,20 @@
       type: "playlist",
       uri: "spotify:playlist:1r2T4FafEl26kCRw788Pas"
     }
-  ];
-}
+  ]
+};
 
 function createTable() {
-  makeRequestForDataFromBitbucket();
-
   var html = "<table class='mui-table mui-table--bordered'> <tr>";
-  Object.keys(json.repos[0]).forEach(function(property) {
-    html += "<th>" (property) + "</th>";
+  Object.keys(json.items[0]).forEach(function(property) {
+    html += "<th>" + property + "</th>";
   });
   html += "</tr>";
 
-  json.repos.forEach(function(repo) {
+  json.items.forEach(function(item) {
     html += "<tr>";
-    Object.keys(repo).forEach(function(property) {
-      html += "<td>" + repo[property + "</td>";
+    Object.keys(item).forEach(function(property) {
+      html += "<td>" + item[property] + "</td>";
     });
     html += "</tr>";
   });
