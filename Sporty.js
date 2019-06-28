@@ -3,42 +3,42 @@ var json = {
     {
       name: "Work",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
       collaborative: false
     },
     {
       name: "Bailey Songs",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
       collaborative: false
     },
     {
       name: "Video Games ",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
       collaborative: false
     },
     {
       name: "Study",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
       collaborative: false
     },
     {
       name: "Food for the heart",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
       collaborative: false
     },
     {
       name: "Hip hop",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
 
       collaborative: false
@@ -46,14 +46,14 @@ var json = {
     {
       name: "Emotions",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
       collaborative: false
     },
     {
       name: "Montage",
       owner: "TaeJ W.",
-      primary-color: null,
+      color: null,
       public: true,
 
       collaborative: true
@@ -61,7 +61,7 @@ var json = {
     {
       name: "xi.xix.xix",
       owner: "kMarti481",
-      primary-color: null,
+      color: null,
       public: false
     }
   ]
