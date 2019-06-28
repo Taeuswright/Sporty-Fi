@@ -62,7 +62,8 @@ var json = {
       name: "xi.xix.xix",
       owner: "kMarti481",
       color: null,
-      public: false
+      public: false,
+      collaborative: true
     }
   ]
 };
